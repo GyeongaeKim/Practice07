@@ -1,0 +1,30 @@
+package com.javaex.ex01;
+
+public abstract class Shape {
+	
+	protected String fillColor;
+	
+	public Shape(String fillColor){
+		this.fillColor=fillColor;
+	}
+	
+	
+	
+	
+	public String getFillColor() {
+		return fillColor;
+	}
+	public void setFillColor(String fillColor) {
+		this.fillColor = fillColor;
+	}
+
+
+
+
+	public abstract void draw();
+	
+	//
+	public abstract void showInfo();
+}
+
+
