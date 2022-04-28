@@ -10,7 +10,7 @@ public class SoundApp {
     }
 
     public static void printSound( Soundable soundable ) {
-        soundable.sound();
+    	System.out.println(soundable.sound());
     	
     }
     
